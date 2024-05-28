@@ -1,12 +1,13 @@
 *{
     font-family: "Edu TAS Beginner", cursive;   
+    background-color: #FFEBF4;
 }
 :root{
     --pastel: #FC8FBF;
     --blanco: #FFEBF4;
 }
 .hider{
-    display: flex;
+    align-items: center;
 }
 .menu__header{
     text-align:center;
@@ -21,10 +22,57 @@
    justify-content: right; 
    
 }
-.letracolor{
-}
 .letracolor:hover{
     color: #f51174;
     transition: 0s;
 }
+
+.title__profile{
+    display: flex;
+    align-items: center;
+}
+
+.title__bio{
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.title__subsection{
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.title__network{
+    justify-content: space-between;
+    display: flex;
+    padding: 15px;
+    font-size: 40px;
+}
+.redescolor:hover{
+    color: #f51174;
+    transition: 0s;
+}
+
+.orden {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+#skill .img_skill img {
+    width: 100px;  
+    height: auto; 
+    justify-content: space-between;
+}
+
+.hobbies__box .hobbies__img img {
+    width: 100px;  
+    height: auto;  
+}
+
+
+
 
