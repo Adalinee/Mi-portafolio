@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Fonte del Proyecto Raleway -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&display=swap" rel="stylesheet">
     <title> Mi Portafolio</title>
 </head>
 <body>
@@ -17,18 +19,19 @@
     <div class="tudo">
     <section class="menu">
         <header class="menu__header">
-            <img src="assets\vector.png">
-            <h3 class="menu__title">Leydy Daniela Rodriguez</h3>
+            <nav>
+                <ul class="menu__list">
+                    <li class="menu__list__item"><a class="letracolor" href="#skills">Skills -</a class="letracolor"></li>
+                    <li class="menu__list__item"><a class="letracolor" href="#hobbies">Hobbies -</a class="letracolor"></li>
+                    <li class="menu__list__item"><a class="letracolor" href="#formacion">Training -</a class="letracolor"></li>
+                    <li class="menu__list__item"><a class="letracolor" href="#xp">Projects</a></li>
+                </ul>
+            </nav>
+            <div class="hider">
+                <img src="assets\vector.png">
+                <h3 class="menu__title">Leydy Daniela Rodriguez</h3>
+            </div>
         </header>
-        <nav>
-            <ul class="menu__list">
-                <li class="menu__list__item"><a href="#skills">Skills</a></li>
-                <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
-                <li class="menu__list__item"><a href="#formacion">Formación</a></li>
-                <li class="menu__list__item"><a href="#xp">Projects</a></li>
-                <li class="menu__list__item"><a href="#contacto">lollanuwu@gmail.com</a></li>
-            </ul>
-        </nav>
     </section>
 
     <!-- Sección del Header/Title/Hero -->
@@ -37,12 +40,12 @@
             <img class="title__profile" src="assets/mifto.png">
             <div class="title__container">
                 <h2 class="title__bio">Hello, my name is Leydy Daniela and I build websites.</h2>
-                <h3 class="title__subsection">Software developer with solid front-end knowledge in HTML5, CSS3+,TypeScript. Back-end knowledge in NodeJS, and SLQ. Strong understanding of design principles, UI/UX and responsive design. Strong understanding of cross-functional teamwork and development based on clean code, Git and Git based repositories. Positive attitude, strong work ethic and a drive for results while focusing on high code quality and performance.</h3>
+                <h3 class="title__subsection">Software developer with solid front-end knowledge in HTML5, CSS3+,TypeScript. Back-end knowledge in NodeJS, and MySQL. Strong understanding of design principles, UI/UX and responsive design. Strong understanding of cross-functional teamwork and development based on clean code, Git and Git based repositories. Positive attitude, strong work ethic and a drive for results while focusing on high code quality and performance.</h3>
                 <ul class="title__network">
                      <!-- Pon los enlaces de tus redes sociales favoritas -->
-                    <li class="title__network__item"><a href="https://github.com/Adalinee">Github <img src="assets\arrow.png"> </a></li>
+                    <li class="title__network__item"><a href="https://github.com/Adalinee">Github <img src="assets\arrow.png"></a></li>
                     <li class="title__network__item"><a href="https://linkedin.com/in/daniela-londoño-0774782b4">Linkedin <img src="assets\arrow.png"></a></li>
-                    <li class="title__network__item"><a href="#">Currículo <img src="assets\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="#">Resume<img src="assets\arrow.png"></a></li>
                 </ul>
             </div>
         </div>
@@ -55,7 +58,7 @@
                 <div class="skills__box">
                     <ul>
                         <li class="skills__img"><img src="assets/web_16066071.png"></li>
-                        <li class="skills__name"> HTML 5</li>
+                        <li class="skills__name">HTML 5</li>
                     </ul>
                 </div>
 
@@ -137,7 +140,7 @@
             <div class="academic__courses__box">
                 <ul class="academic__courses__list">
                     <!-- Pon el logotipo de la institución de formación -->
-                    <li class="academic__courses__item__img"><img src="assets/senas.png"></li>
+                    <!-- <li class="academic__courses__item__img"><img src="assets/senas.png"></li> -->
                     <li class="academic__courses__item__title"><h4>Analisis y Desarrollado de software</h4></li>
                     <li class="academic__courses__item__subtitle"><p>2024 - Actualidad</p></li>
                 </ul>
@@ -145,7 +148,7 @@
             <div class="academic__courses__box">
                 <ul class="academic__courses__list">
                     <!--Pon el logotipo de la institución de formación -->
-                    <li class="academic__courses__item__img"><img src="assets/alurazx.png"></li>
+                    <li class="academic__courses__item__img"><img class="senaimage" src="assets/alurazx.png"></li>
                     <li class="academic__courses__item__title"><h4>Fronted Developer</h4></li>
                     <li class="academic__courses__item__subtitle"><p>2024 - Actualidad </p></li>
                 </ul>
@@ -158,7 +161,7 @@
         <h2 class="experience__section__title" >Projects</h2>
         <div class="experiencie__box">
             <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-            <img class="experience__img" src="assets/encriptador.png">
+            <!-- <img class="experience__img" src="assets/encriptador.png"> -->
             <div class="experience__info"
                 <h2 class="experience__title">Encriptador de texto</h2>
                 <h3 class="experience__text">Challenge Alura Encriptador </h3>
@@ -172,7 +175,7 @@
 
         <div class="experiencie__box">
             <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-            <img class="experience__img" src="assets/fokus.png">
+            <!-- <img class="experience__img" src="assets/fokus.png"> -->
             <div class="experience__info"
                 <h2 class="experience__title">AluraFokus</h2>
                 <h3 class="experience__text">Challenge Oracle </h3>
@@ -186,7 +189,7 @@
 
         <div class="experience__box">
             <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-            <img class="experience__img" src="assets/sounds.png">
+            <!-- <img class="experience__img" src="assets/sounds.png"> -->
             <div class="experience__info-container"
                 <h2 class="experience__title">Alura midi</h2>
                 <h3 class="experience__text">Challenge Oracle </h3>

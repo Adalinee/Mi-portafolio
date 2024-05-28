@@ -1,0 +1,30 @@
+*{
+    font-family: "Edu TAS Beginner", cursive;   
+}
+:root{
+    --pastel: #FC8FBF;
+    --blanco: #FFEBF4;
+}
+.hider{
+    display: flex;
+}
+.menu__header{
+    text-align:center;
+    background-color: var(--blanco);
+    font-size: 40px;
+}
+.menu__list{
+    width: 95%;
+    display: flex;
+    gap: 20px;
+    font-size: 30px;   
+   justify-content: right; 
+   
+}
+.letracolor{
+}
+.letracolor:hover{
+    color: #f51174;
+    transition: 0s;
+}
+
