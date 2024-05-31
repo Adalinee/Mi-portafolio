@@ -68,11 +68,19 @@
     justify-content: space-between;
 }
 
-.hobbies__box .hobbies__img img {
-    width: 100px;  
-    height: auto;  
+#skill .name_skill {
+    margin-top:40px;
+}
+
+.orden2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
 }
 
 
-
-
+#hobbies .img_hobbies img {
+    width: 100px;  
+    height: auto; 
+    justify-content: space-between;
+}
