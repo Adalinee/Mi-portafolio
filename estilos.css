@@ -9,18 +9,39 @@
 .hider{
     align-items: center;
 }
-.menu__header{
-    text-align:center;
-    background-color: var(--blanco);
-    font-size: 40px;
-}
-.menu__list{
-    width: 95%;
+.menu__header {
     display: flex;
-    gap: 20px;
-    font-size: 30px;   
-   justify-content: right; 
-   
+    justify-content: flex-end; /* Alinea los elementos del header al final (derecha) */
+    align-items: center; /* Centra verticalmente los elementos del header */
+    padding: 10px 20px; /* Espaciado interno */
+}
+
+.menu__list {
+    display: flex;
+    list-style: none; /* Quita los puntos de la lista */
+    margin: 0;
+    padding: 0;
+}
+
+.menu__list__item {
+    margin-left: 20px; /* Espacio entre los elementos del menú */
+    
+}
+
+.letracolor {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: #333; /* Color del texto */
+    font-weight: bold; /* Negrita para los enlaces */
+}
+
+.hider {
+    margin-right: auto; /* Deja espacio a la derecha para el menú */
+}
+
+.menu__title {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
 }
 .letracolor:hover{
     color: #f51174;
@@ -49,10 +70,13 @@
     display: flex;
     padding: 15px;
     font-size: 40px;
+    
+
 }
 .redescolor:hover{
     color: #f51174;
     transition: 0s;
+
 }
 
 #skill .imagenes_skill {
@@ -69,6 +93,8 @@
     flex-direction: column;
     align-items: center;
     margin: 10px;
+    padding: 50px;
+
 }
 
 #skill .skill_item img {
@@ -77,6 +103,12 @@
     display: block;
     margin-bottom: 10px; /* Espacio entre la imagen y el h2 */
 }
+#skill .skill_item h2 {
+    font-weight: bold; /* Hace que el texto sea negrita */
+    font-size: 30px;
+
+}
+
 
 
 
@@ -94,7 +126,14 @@
     flex-direction: column;
     align-items: center;
     margin: 10px;
+    padding: 50px;
 }
+#hobbie .hobbie_item h2 {
+    font-weight: bold; /* Hace que el texto sea negrita */
+    font-size: 30px;
+}
+
+
 
 #hobbie .hobbie_item img {
     width: 100px;
