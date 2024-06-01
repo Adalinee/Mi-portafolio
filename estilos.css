@@ -55,32 +55,50 @@
     transition: 0s;
 }
 
-.orden {
+#skill .imagenes_skill {
     display: flex;
-    justify-content: space-between;
-    padding: 30px;
+    justify-content: space-around;
+    align-items: flex-start; /* Opcional: Para alinear las imágenes en la parte superior */
+    flex-wrap: wrap; /* Opcional: Para que las imágenes se ajusten en filas si hay muchas */
+    width: 100%;
+    text-align: center;
 }
 
-
-#skill .img_skill img {
-    width: 100px;  
-    height: auto; 
-    justify-content: space-between;
-}
-
-#skill .name_skill {
-    margin-top:40px;
-}
-
-.orden2 {
+#skill .skill_item {
     display: flex;
-    justify-content: space-between;
-    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+#skill .skill_item img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px; /* Espacio entre la imagen y el h2 */
 }
 
 
-#hobbies .img_hobbies img {
-    width: 100px;  
-    height: auto; 
-    justify-content: space-between;
+
+#hobbie .imagenes_hobbie {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Opcional: Para alinear las imágenes en la parte superior */
+    flex-wrap: wrap; /* Opcional: Para que las imágenes se ajusten en filas si hay muchas */
+    width: 100%;
+    text-align: center;
+}
+
+#hobbie .hobbie_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+#hobbie .hobbie_item img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px; /* Espacio entre la imagen y el h2 */
 }
