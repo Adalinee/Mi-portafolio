@@ -97,6 +97,12 @@
 
 }
 
+#skill .skill_title{
+    font-size: 20px;
+   font-weight: bold; /* Hace que el texto sea negrita */
+   margin: 0 15px;
+}
+
 #skill .skill_item img {
     width: 100px;
     height: auto;
@@ -108,9 +114,6 @@
     font-size: 30px;
 
 }
-
-
-
 
 #hobbie .imagenes_hobbie {
     display: flex;
@@ -129,15 +132,51 @@
     padding: 50px;
 }
 #hobbie .hobbie_item h2 {
-    font-weight: bold; /* Hace que el texto sea negrita */
+    font-weight: bold; 
     font-size: 30px;
 }
-
-
 
 #hobbie .hobbie_item img {
     width: 100px;
     height: auto;
     display: block;
-    margin-bottom: 10px; /* Espacio entre la imagen y el h2 */
+    margin-bottom: 10px; 
+}
+#hobbie .hobbies_title{
+    font-size: 20px;
+   font-weight: bold; 
+   margin: 0 15px;
+}
+
+.academic__title{
+    font-size: 30px;
+    font-weight: bold; 
+
+}
+#formacion{
+    padding: 15px;
+}
+.img_training img {
+    width: 100px; /* Ajusta el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    padding: 15px;
+}
+
+.senaimage {
+    width: 150px; /* Ajusta el ancho de la imagen específica */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Si deseas aplicar un tamaño diferente a todas las imágenes dentro de la sección "formacion" */
+.formacion_caja img {
+    width: 120px; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de las imágenes */
+}
+
+.formacion_caja{
+    font-weight: bold; 
+}
+
+.formacion_title{
+    font-size: 25px;
 }
