@@ -5,6 +5,7 @@
 :root{
     --pastel: #FC8FBF;
     --blanco: #FFEBF4;
+    --pastelito: #fb3fd6;
 }
 .hider{
     align-items: center;
@@ -13,7 +14,8 @@
     display: flex;
     justify-content: flex-end; /* Alinea los elementos del header al final (derecha) */
     align-items: center; /* Centra verticalmente los elementos del header */
-    padding: 10px 20px; /* Espaciado interno */
+    padding: 30px 40px; /* Espaciado interno */
+    background: var(--pastelito);
 }
 
 .menu__list {
