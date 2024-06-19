@@ -1,6 +1,6 @@
 *{
-    font-family: "Edu TAS Beginner", cursive;   
     background-color: #FFEBF4;
+    font-family: "PT Sans", sans-serif;
 }
 :root{
     --pastel: #FC8FBF;
@@ -10,34 +10,50 @@
 .hider{
     align-items: center;
 }
+
+.title__profile {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 25px;
+    border-radius: 50%; 
+    width: 15%; 
+    height: auto; 
+}
+
+.title__bio {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
 .menu__header {
     display: flex;
-    justify-content: flex-end; /* Alinea los elementos del header al final (derecha) */
-    align-items: center; /* Centra verticalmente los elementos del header */
-    padding: 30px 40px; /* Espaciado interno */
+    justify-content: flex-end; 
+    align-items: center; 
+    padding: 30px 40px;
     background: var(--pastelito);
 }
 
 .menu__list {
     display: flex;
-    list-style: none; /* Quita los puntos de la lista */
+    list-style: none; 
     margin: 0;
     padding: 0;
 }
 
 .menu__list__item {
-    margin-left: 20px; /* Espacio entre los elementos del menú */
+    margin-left: 20px; 
     
 }
 
 .letracolor {
-    text-decoration: none; /* Quita el subrayado de los enlaces */
-    color: #333; /* Color del texto */
-    font-weight: bold; /* Negrita para los enlaces */
+    text-decoration: none; 
+    color: #333;
+    font-weight: bold; 
 }
 
 .hider {
-    margin-right: auto; /* Deja espacio a la derecha para el menú */
+    margin-right: auto; 
 }
 
 .menu__title {
@@ -58,19 +74,19 @@
 .title__bio{
     text-align: center;
     font-size: 30px;
-    padding: 15px;
+    padding: 5%;
 }
 
-.title__subsection{
+.title__bio2{
     text-align: center;
-    font-size: 30px;
-    padding: 15px;
+    font-size: 20px;
+    padding: 5%;
 }
 
 .title__network{
     justify-content: space-between;
     display: flex;
-    padding: 15px;
+    padding: 10px;
     font-size: 40px;
     
 
@@ -81,11 +97,14 @@
 
 }
 
+.skill_title{
+    padding: 15px;
+}
 #skill .imagenes_skill {
     display: flex;
     justify-content: space-around;
-    align-items: flex-start; /* Opcional: Para alinear las imágenes en la parte superior */
-    flex-wrap: wrap; /* Opcional: Para que las imágenes se ajusten en filas si hay muchas */
+    align-items: flex-start;
+    flex-wrap: wrap; 
     width: 100%;
     text-align: center;
 }
@@ -101,7 +120,7 @@
 
 #skill .skill_title{
     font-size: 20px;
-   font-weight: bold; /* Hace que el texto sea negrita */
+   font-weight: bold; 
    margin: 0 15px;
 }
 
@@ -109,10 +128,10 @@
     width: 100px;
     height: auto;
     display: block;
-    margin-bottom: 10px; /* Espacio entre la imagen y el h2 */
+    margin-bottom: 10px; 
 }
 #skill .skill_item h2 {
-    font-weight: bold; /* Hace que el texto sea negrita */
+    font-weight: bold; 
     font-size: 30px;
 
 }
@@ -120,8 +139,8 @@
 #hobbie .imagenes_hobbie {
     display: flex;
     justify-content: space-around;
-    align-items: flex-start; /* Opcional: Para alinear las imágenes en la parte superior */
-    flex-wrap: wrap; /* Opcional: Para que las imágenes se ajusten en filas si hay muchas */
+    align-items: flex-start; 
+    flex-wrap: wrap; 
     width: 100%;
     text-align: center;
 }
@@ -159,20 +178,19 @@
     padding: 15px;
 }
 .img_training img {
-    width: 100px; /* Ajusta el ancho de la imagen */
-    height: auto; /* Mantiene la proporción de la imagen */
+    width: 100px; 
+    height: auto; 
     padding: 15px;
 }
 
 .senaimage {
-    width: 150px; /* Ajusta el ancho de la imagen específica */
-    height: auto; /* Mantiene la proporción de la imagen */
+    width: 150px; 
+    height: auto; 
 }
 
-/* Si deseas aplicar un tamaño diferente a todas las imágenes dentro de la sección "formacion" */
 .formacion_caja img {
-    width: 120px; /* Ajusta el ancho de las imágenes */
-    height: auto; /* Mantiene la proporción de las imágenes */
+    width: 120px; 
+    height: auto; 
 }
 
 .formacion_caja{
@@ -181,4 +199,11 @@
 
 .formacion_title{
     font-size: 25px;
+}
+
+
+.experience__img{
+    width: 30%;
+    border-radius: 15px;
+
 }
